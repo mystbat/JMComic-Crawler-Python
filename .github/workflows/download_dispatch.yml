@@ -113,7 +113,7 @@ jobs:
           python workflow_download.py
 
       - name: 上传结果
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ env.UPLOAD_NAME }}
           path:  ${{ env.JM_ZIP_DOWNLOAD_DIR }}
