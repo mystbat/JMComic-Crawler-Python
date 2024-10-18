@@ -40,7 +40,7 @@ plugins:
       kwargs:
         level: album # 按照本子，一个本子对应一个压缩文件，该压缩文件会包含这个本子的所有章节
   
-        filename_rule: Atitle
+        filename_rule: Aid
         
         zip_dir: ${JM_ZIP_DOWNLOAD_DIR} # 压缩文件存放的文件夹
         delete_original_file: true # 压缩成功后，删除所有原文件和文件夹
